@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Bakery</title>
+</head>
+<body>
+    <header>
+        <h1>HTML Bakery</h1>
+        <nav>
+            <a href="#cookies">Cookies</a>
+            <a href="#cakes">Cakes</a>
+            <a href="#cupcakes">Cupcakes</a>  
+        </nav>
+    </header>   
+    <main>
+        <section id="cookies">
+            <h2>Cookies</h2>
+            <figure>
+                <img src="https://i.pinimg.com/564x/86/d1/62/86d1620d348dca13b4fc49664d67efe6.jpg" width="250" height="250" alt="cookies"/>
+                <figcaption>Computer Cookies</figcaption>
+            </figure>
+            <p>Biscuit chocolate pastry. Cupcake I love danish lemon drops. Fruitcake apple pie gummi bears.</p>
+        </section>
+        <section id="cakes">
+            <h2>Cakes</h2>
+            <figure>
+                <img src="https://i.pinimg.com/564x/3e/ec/8e/3eec8e431d58cf4ae94511492395d401.jpg" width="250" height="250" alt="cake"/>
+                <figcaption>Laptop Cake</figcaption>
+            </figure>
+            <p>Candy canes sesame snaps fruitcake chupa chups jelly beans jelly-o halvah bonbon powder. Chocolate cake chocolate bar pudding toffee donut sweet roll marshmallow topping dessert. Gummi bears sesame snaps bonbon dessert lemon drops apple pie gummies. Chocolate bar danish marzipan bonbon gingerbread tiramisu dragée caramels topping.</p>
+        </section>
+        <section id="cupcakes">
+            <h2>Cupcakes</h2>
+            <figure>
+                <a data-flickr-embed="true" href="https://www.flickr.com/photos/46768533@N07/7388209968/" title="Html and Binary Cupcakes"><img src="https://live.staticflickr.com/5324/7388209968_9154541d66_k.jpg" width="250" height="250" alt="Html and Binary Cupcakes"></a>
+                <figcaption>Coding Cupcake</figcaption>
+            </figure>
+            <p>Gummies cake toffee chocolate bar gingerbread powder biscuit pastry bear claw. Sesame snaps tart jujubes donut. Jelly-o marzipan sweet roll wafer liquorice. Dessert fruitcake candy canes jelly-o muffin.</p>
+        </section>
+        <section id="order">
+            <form action="index.html" method="POST">
+                <h2 >Order here!</h2>
+        
+                <section class="Cookies">
+                    <label for="Cookies">What type of Cookies would you like?</label>
+                    <input type="text" name="Cookies" id="Cookies">
+                </section>
+        
+                <section class="amount">
+                    <label for="amount">How many Cookies would you like?</label>
+                    <input type="number" name="amount" id="amount">
+                </section>
+        
+                <section class="type">
+                    <label for="type">Select:</label>
+                    <input list="type" id="topping" name="type">
+                    <datalist id="type">
+                        <option value="Oatmeal Cookies"></option>
+                        <option value=" Black and White Cookie"></option>
+                        <option value="Fortune Cookie"></option>
+                    </datalist>
+                </section>
+               </form>
+        </section>
+        <h3>Pricing</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Product Name</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Sugar Cookies</td>
+                    <td>$1.99</td>
+                </tr>
+                <tr>
+                    <td>Chocolate Cake</td>
+                    <td>$12.99</td>
+                </tr>
+                <tr>
+                    <td>Vanilla Cake</td>
+                    <td>$12.99</td>
+                </tr>
+                <tr>
+                    <td>Strawberry Cupcake</td>
+                    <td>$2.99</td>
+                </tr>
+                <tr>
+                    <td>Banana Cupcake</td>
+                    <td>$2.99</td>
+                </tr>
+            </thead>
+        </table>
+
+        <h3>Bakery Hours</h3>
+        <table border="2">
+    
+            <tr>
+                <th>Days</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday </th>
+                <th>Friday</th>
+                <th>Saturday </th>
+            </tr>
+            <tr>
+                <th>Hours</th>
+                <td>9-1</td>
+                <td>9-1</td>
+                <td>9-1</td>
+                <td>9-1</td>
+                <td>9-1</td>
+                <td>9-1</td>  
+            </tr>
+        </table>
+    
+    </main>
+    <footer>
+        <p>Authors: Amet, Audrey, Jacquetta & Kendria</p>
+        <p>This was a quick webpage created in collaboration within 50 minutes.</p>
+        <p><a href="https://www.codecademy.com/" target="_blank">With Help From Code Academy</a></p>
+        <p><a href="https://usa.generation.org/" target="_blank">Generation USA</a></p>
+    </footer>
+      
+</body>
+</html>
